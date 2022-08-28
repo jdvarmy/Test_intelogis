@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  flex: 1 1 auto;
+}
+.box {
+  padding: 8px;
+  position: relative;
+  overflow: auto;
+}
+.left {
+  flex: 1 1 auto;
+}
+.right {
+  flex: 0 0 auto;
+}
+.splitter {
+  flex: 0 0 auto;
+  width: 4px;
+  height: 100%;
+  cursor: col-resize;
+  background-color: #ccc;
+}
+
+.splitter:hover {
+  background-color: #bbb;
+}

@@ -1,0 +1,6 @@
+@import '~antd/dist/antd.css';
+
+.leaflet-touch .leaflet-bar {
+    user-select: none;
+    background: rgba(255, 255, 255, 0.7);
+}

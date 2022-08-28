@@ -1,0 +1,13 @@
+.footer {
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+.logo {
+  color: #fff;
+}
+.borderRight {
+  border-right: 1px solid black;
+}
+.height {
+  height: 100vh;
+}

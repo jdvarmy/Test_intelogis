@@ -1,17 +1,17 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import store from './store/store';
+import { configureStore } from './store/store';
+import Layout from './Layout/Layout';
+import './App.css';
 
-function App() {
+const store = configureStore();
+
+const App = () => {
   return (
     <Provider store={store}>
-      <div className='App'>
-        <header className='App-header'>
-          <p>hello nigga</p>
-        </header>
-      </div>
+      <Layout />
     </Provider>
   );
-}
+};
 
 export default App;
